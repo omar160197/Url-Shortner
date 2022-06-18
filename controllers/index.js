@@ -32,7 +32,7 @@ const controller = {
         if (err) {
             res.status(500).send(err);
         } else {
-            res.send({link : `http://localhost:8000/api/${slug}`});
+            res.send({link : `https://url-shortner3.herokuapp.com/shortLinks/${slug}`});
         }
     });
   },
